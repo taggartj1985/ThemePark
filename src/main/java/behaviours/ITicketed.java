@@ -4,7 +4,7 @@ import people.Visitor;
 
 public interface ITicketed {
 
-    double deafaultPrice();
+    double defaultPrice();
 
     double priceFor(Visitor visitor);
 }
